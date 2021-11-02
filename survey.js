@@ -17,7 +17,19 @@ rl.question('What\'s your name? Nicknames are also acceptable :) ', (answer) => 
       rl.question('Which meal is your favourite (eg: dinner, brunch, etc.) ', (answer) => {
         console.log(`Thank you for your valuable feedback: ${answer}`);
 
+        rl.question('What\'s your favourite thing to eat for that meal? ', (answer) => {
+          console.log(`Thank you for your valuable feedback: ${answer}`);
+
+          rl.question('Which sport is your absolute favourite? ', (answer) => {
+            console.log(`Thank you for your valuable feedback: ${answer}`);
+
+            rl.question('What is your superpower? In a few words, tell us what you are amazing at! ', (answer) => {
+              console.log(`Thank you for your valuable feedback: ${answer}`);
+
   rl.close();
+});
+});
+});
 });
 });
 });
